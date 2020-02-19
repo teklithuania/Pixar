@@ -3,38 +3,72 @@ body {
 }
 .container {
     display: inline-block;
-    width: 1200px;
+    width: 1300px;
     margin-top: 50px;
-    margin-left: calc((100% - 1200px) / 2);
-    background-color: yellow;
+    margin-left: calc((100% - 1300px) / 2);
 }
     header {
-
+        display: inline-block;
+        width: 100%;
     }
         .logo {
-
+            display: inline-block;
+            float: left;
+            height: 30px; 
+            margin-top: 20px;
+            margin-left: 20px;
         }
         nav {
-
+            display: inline-block;
+            float: right;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
             a {
-
+                display: inline-block;
+                float: left;
+                margin-left: 15px;
+                font-size: 15px;
+                line-height: 20px;
+                text-decoration: none;
+                text-transform: uppercase;
             }
             .btn{
-
+                font-size: 20px;
+                border-radius: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border: 2px solid black;
+                color: #1d1d1d
             }
     section {
-
+        display: inline-block;
+        width: 100%;
+        margin-top: 80px;
     }
         .girl {
-
+            display: inline-block;
+            float: left;
+            width: 42%;
+            margin-left: 4%;
+            margin-right: 4%;
         }
         div {
-
+            display: inline-block;
+            width: 42%;
+            float: left;
+            margin-top: 300px;
+            margin-left: 4%;
+            margin-right: 4%;
         }
             h1 {
-
+                font-size: 40px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #1d1d1d;
             }
             p {
-
+                font-size: 20px;
+                text-align: center;
+                color: #1d1d1d
             }
