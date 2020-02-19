@@ -1,0 +1,40 @@
+body {
+    background-color: #EFF8FF;
+}
+.container {
+    display: inline-block;
+    width: 1200px;
+    margin-top: 50px;
+    margin-left: calc((100% - 1200px) / 2);
+    background-color: yellow;
+}
+    header {
+
+    }
+        .logo {
+
+        }
+        nav {
+
+        }
+            a {
+
+            }
+            .btn{
+
+            }
+    section {
+
+    }
+        .girl {
+
+        }
+        div {
+
+        }
+            h1 {
+
+            }
+            p {
+
+            }
